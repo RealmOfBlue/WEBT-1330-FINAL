@@ -1,0 +1,242 @@
+body {
+    background-color: #B6FFEE;
+}
+
+nav {
+    background-image: url(images/d-masthead-home.png);
+    background-size: 100%;
+    padding-bottom: 30%;
+}
+
+nav img {
+    float: right;
+}
+
+.active img {
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+    border-bottom-color: #FCC48B;
+}
+
+.home img:hover {
+    border-image: url(images/home-badge-pos-edit.png) 23 round;
+    border-bottom: 30px solid transparent;
+    border-image-outset: 5px;
+    display: block;
+   
+    
+}
+
+.garden img:hover {
+    border-image: url(images/garden-banner-redo.png) 19 round;
+    border-bottom: 30px solid transparent;
+    border-image-outset: 5px;
+    display: block;
+   
+    
+}
+
+.learn img:hover {
+    border-image: url(images/learn-badge.png) 19 round;
+    border-bottom: 30px solid transparent;
+    border-image-outset: 5px;
+    display: block;
+   
+    
+}
+
+.adopt img:hover {
+    border-image: url(images/adopt-badge.png) 19 round;
+    border-bottom: 30px solid transparent;
+    border-image-outset: 5px;
+    display: block;
+   
+    
+}
+
+
+.d-content1-home {
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+
+}
+
+.d-content1-home a {
+   
+    text-align: center;
+    font-family:'Macondo Swash Caps', cursive;
+    font-size: 400%;
+    text-decoration: none;
+    color: #19677A;
+    background-color: #B6FFEE;
+
+}
+.d-content1-home a:hover {
+   
+    color: #40B5BD;
+
+}
+
+.d-content2-home {
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+
+}
+
+.d-content2-home a {
+   
+    text-align: center;
+    font-family:'Macondo Swash Caps', cursive;
+    font-size: 400%;
+    text-decoration: none;
+    color: #19677A;
+    background-color: #B6FFEE;
+
+}
+.d-content2-home a:hover {
+   
+    color: #40B5BD;
+
+}
+
+.d-content3-home {
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+
+}
+
+.d-content3-home a, h1 {
+   
+    text-align: center;
+    font-family:'Macondo Swash Caps', cursive;
+    font-size: 400%;
+    text-decoration: none;
+    color: #19677A;
+    background-color: #B6FFEE;
+
+}
+.d-content3-home a:hover {
+   
+    color: #40B5BD;
+
+}
+
+.t-content1-home a, .t-content2-home a, .t-content3-home a, h2{
+    text-align: center;
+    font-family:'Macondo Swash Caps', cursive;
+    font-size: 400%;
+    text-decoration: none;
+    color: #19677A;
+    background-color: #B6FFEE;
+
+}
+
+.t-content1-home, .t-content2-home, .t-content3-home,
+.t-content1-home, .t-content2-home, .t-content3-home,
+.t-content1-garden, .t-content2-garden, .t-content3-garden,
+.t-content1-learn, .t-content2-learn, .t-content3-learn,
+.t-content1-adopt, .t-content2-adopt, .t-content2-adopt {
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+
+}
+
+.t-content1-home a:hover, .t-content2-home a:hover, .t-content3-home a:hover,
+.t-content1-garden a:hover, .t-content2-garden a:hover, .t-content3-garden a:hover,
+.t-content1-learn a:hover, .t-content2-learn a:hover, .t-content3-learn a:hover,
+.t-content1-adopt a:hover, .t-content2-adopt a:hover, .t-content2-adopt a:hover {
+   
+    color: #40B5BD;
+
+}
+
+.m-content1-home a, .m-content2-home a, .m-content3-home a, h3 {
+    text-align: center;
+    font-family:'Macondo Swash Caps', cursive;
+    font-size: 200%;
+    text-decoration: none;
+    color: #19677A;
+    background-color: #B6FFEE;
+
+}
+
+.m-content1-home, .m-content2-home, .m-content3-home 
+.m-content1-garden, .m-content2-garden, .m-content3-garden,
+.m-content1-learn, .m-content2-learn, .m-content3-learn,
+.m-content1-adopt, .m-content2-adopt, .m-content2-adopt {
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+
+}
+
+.m-content1-home a:hover, .m-content2-home a:hover, .m-content3-home a:hover,
+.m-content1-garden a:hover, .m-content2-garden a:hover, .m-content3-garden a:hover,
+.m-content1-learn a:hover, .m-content2-learn a:hover, .m-content3-learn a:hover,
+.m-content1-adopt a:hover, .m-content2-adopt a:hover, .m-content2-adopt a:hover {
+   
+    color: #40B5BD;
+
+}
+
+footer img {
+    width: 100%;
+    display: flex;
+}
+
+
+
+
+
+
+/* DESKTOP  */
+
+@media (min-width: 1000px) {
+   .tablet {
+    display: none;
+
+   }
+
+   .mobile {
+    display: none;
+   }
+    
+
+}
+
+/* TABLET */
+    
+@media (max-width: 1000px) {
+
+    .mobile {
+    display: none;
+    }
+
+    .desktop {
+    display: none;
+    }
+
+}
+    
+/* MOBILE */
+    
+@media (max-width: 800px) {
+    .tablet {
+    display: none;
+    }
+
+    .desktop {
+    display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+}
+    
+
